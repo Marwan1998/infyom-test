@@ -128,6 +128,8 @@ return [
 
     'options' => [
 
+        'seeder' => true,
+
         'softDelete' => true,
 
         'save_schema_file' => true,
