@@ -4,7 +4,7 @@
         <tr>
             <th>Title</th>
         <th>Content</th>
-        <th>User Id</th>
+        {{-- <th>User Id</th> --}}
             <th colspan="3">Action</th>
         </tr>
         </thead>
@@ -13,7 +13,7 @@
             <tr>
                 <td>{{ $secret->title }}</td>
             <td>{{ $secret->content }}</td>
-            <td>{{ $secret->user_id }}</td>
+            {{-- <td>{{ $secret->user_id }}</td> --}}
                 <td width="120">
                     {!! Form::open(['route' => ['secrets.destroy', $secret->id], 'method' => 'delete']) !!}
                     <div class='btn-group'>

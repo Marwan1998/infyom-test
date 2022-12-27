@@ -8,7 +8,6 @@ use App\Repositories\SecretRepository;
 use App\Http\Controllers\AppBaseController;
 use Illuminate\Http\Request;
 use Laracasts\Flash\Flash;
-// use Flash;
 use Response;
 
 class SecretController extends AppBaseController
