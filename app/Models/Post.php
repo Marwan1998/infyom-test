@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 /**
  * Class Post
  * @package App\Models
- * @version December 31, 2022, 8:27 pm UTC
+ * @version December 31, 2022, 9:18 pm UTC
  *
  * @property string $title
  * @property string $subject
