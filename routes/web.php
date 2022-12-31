@@ -22,3 +22,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::resource('games', App\Http\Controllers\GameController::class);
+
+
+
+
+Route::resource('posts', App\Http\Controllers\PostController::class);

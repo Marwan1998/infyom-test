@@ -134,7 +134,7 @@ return [
 
         'save_schema_file' => true,
 
-        'localized' => false,
+        'localized' => true,
 
         'tables_searchable_default' => false,
 
