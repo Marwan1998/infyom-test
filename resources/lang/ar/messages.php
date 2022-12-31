@@ -2,10 +2,10 @@
 
 return [
 
-    'retrieved' => ':model تمت الاستعادة بنجاح',
-    'saved'     => ':model تم الحفظ بنجاح',
-    'updated'   => ':model تم التعديل بنجاح',
-    'deleted'   => ':model تم الحذف بنجاح',
-    'not_found' => ':model لم يتم العثور على',
+    'retrieved' => 'تمت استعادة :model بنجاح',
+    'saved'     => 'تم حفظ :model بنجاح',
+    'updated'   => 'تم تعديل :model بنجاح',
+    'deleted'   => 'تم حذف :model بنجاح',
+    'not_found' => 'لم يتم العثور على :model',
 
 ];
