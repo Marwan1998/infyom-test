@@ -35,3 +35,6 @@ Route::resource('articles', App\Http\Controllers\ArticleController::class);
 
 
 Route::resource('posts', App\Http\Controllers\PostController::class);
+
+
+Route::resource('secrets', App\Http\Controllers\SecretController::class);
