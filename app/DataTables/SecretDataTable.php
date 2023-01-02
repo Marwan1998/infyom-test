@@ -65,8 +65,9 @@ class SecretDataTable extends DataTable
     protected function getColumns()
     {
         return [
-            'title',
-            'content',
+            'id' => ['title' => 'ID', 'searchable' => false, 'orderable' => false],
+            'title'=> ['title' => 'TITLE', 'orderable' => true],
+            'content'=> ['title' => 'CONTACT', 'orderable' => false],
             // 'user_id'
         ];
     }
